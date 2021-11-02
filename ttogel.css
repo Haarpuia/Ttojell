@@ -250,13 +250,9 @@
     color: #00c79f;
   }
   .friendswrapper {
+    width: 80%;
     display: flex;
     text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    /* align-contents: space-around; */
     justify-content: space-around;
   }
   .friendsbox {
@@ -309,7 +305,7 @@
   }
   .shopswrapper {
     display: flex;
-    width: 100%;
+    width: 50%;
     justify-content: space-between;
     padding-bottom: 60px;
     align-items: center;
