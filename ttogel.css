@@ -306,7 +306,7 @@
   .shopswrapper {
     display: flex;
     width: 50%;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 60px;
     align-items: center;
     flex-wrap: wrap;
