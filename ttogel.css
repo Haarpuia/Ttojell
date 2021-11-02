@@ -311,7 +311,7 @@
   }
   .shopswrapper {
     display: flex;
-    /* align-contents: space-around; */
+    width: 100%;
     justify-content: space-around;
     padding-bottom: 60px;
     align-items: center;
