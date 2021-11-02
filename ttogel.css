@@ -312,7 +312,7 @@
   .shopswrapper {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 60px;
     align-items: center;
     flex-wrap: wrap;
