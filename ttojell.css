@@ -16,29 +16,58 @@
 	}
 	.headerwrapper {
 		display: flex;
-		width: 100%;
+		width: 90%;
 		background: #FF9292;
 		float: left;
 		color: white;
 		align-items: center;
+		justify-content: space-around;
 	}
 	.title {
+		width: 10%;
 		font-weight: 900;
 		background: #FF9292;
 		font-size: 24px;
-		padding-left: 5%;
 	}
 	.navwrapper {
 		display: flex;
 		margin-left: auto;
 		background: #FF9292;
-		padding-right: 5%;
+		justify-content: space-between;
 	}
 	.navitem {
-		width: 100px;
 		background: #FF9292;
 	}
+	.main {
+		background: linear-gradient(180deg, #FF9292 0%, rgba(236, 236, 236, 0) 50%);
+	}
+	.mainwrapper {
+		width: 90%;
+		justify-content: space-between;
+		padding: 0;
+	}
+	.maintext {
+		width: 40%;
+		text-align: left;
+	}
+	.maintitle {
+		color: #FF9292;
+		font-weight: 900;
+		font-size: 52px;
+		padding-bottom: 80px;
+	}
+	.maindescription {
+		color: #FF9292;
+		font-size: 44px;
+	}
+	.imagewrapeer {
+		width: 80%;
+		align-items: center;
+		margin: 0 auto;
+		justify-content: flex-end;
+	}
 	.introwrapper {
+		padding: 60px 0px 0px 0px;
 		padding-bottom: 40px;
 	}
 	.introtitle {
@@ -51,27 +80,6 @@
 	}
 	.introimage {
 		width: 30%
-	}
-	.mainwrapper {
-		width: 100%;
-		background: linear-gradient(180deg, #FF9292 0%, rgba(236, 236, 236, 0) 50%);
-		display: flex;
-		justify-content: space-between;
-		padding: 0;
-	}
-	.maintext {
-		padding-left: 150px;
-		padding-top: 150px;
-	}
-	.maintitle {
-		color: #FF9292;
-		font-weight: 900;
-		font-size: 52px;
-		padding-bottom: 80px;
-	}
-	.maindescription {
-		color: #FF9292;
-		font-size: 44px;
 	}
 	.friendswrapper {
 		width: 100%;
@@ -155,10 +163,9 @@
 		margin: 20px;
 	}
 	footer {
-		width: 100%;
+		width: 90%;
 		height: auto;
 		background: #739AF2;
-		padding: 30px 0px 30px 150px;
 		color: white;
 	}
 	.footerwrapper {
@@ -175,7 +182,7 @@
 		font-weight: 600;
 		font-size: 18px;
 	}
-
+}
 @media all and (min-width: 768px) {
 	* {
 		font-family: montserrat;
@@ -338,6 +345,7 @@
 		color: white;
 	}
 	.footerwrapper {
+		text-align: left;
 		padding-bottom: 15px;
 		font-size: 14px;
 	}
@@ -350,6 +358,5 @@
 	.copyright {
 		font-weight: 600;
 		font-size: 18px;
-	}
 	}
 }
