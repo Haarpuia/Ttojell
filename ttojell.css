@@ -199,23 +199,22 @@
 	}
 	.headerwrapper {
 		display: flex;
-		width: 100%;
+		width: 90%;
 		background: #FF9292;
 		float: left;
 		color: white;
 		align-items: center;
+		margin: 0 auto;
 	}
 	.title {
 		font-weight: 900;
 		background: #FF9292;
 		font-size: 24px;
-		padding-left: 5%;
 	}
 	.navwrapper {
 		display: flex;
 		margin-left: auto;
 		background: #FF9292;
-		padding-right: 5%;
 	}
 	.navitem {
 		width: 100px;
