@@ -192,6 +192,7 @@
 		height: 180px;
 		background: #FF9292;
 		justify-content: space-between;
+		text-align: left;
 	}
 	.headerwrapper {
 		display: flex;
@@ -207,6 +208,7 @@
 		font-weight: 900;
 		background: #FF9292;
 		font-size: 48px;
+		width: 400px;
 	}
 	.navwrapper {
 		display: flex;
@@ -214,6 +216,8 @@
 		justify-content: space-between;
 		background: #FF9292;
 		width: 400px;
+		text-align: center;
+		padding: 0;
 	}
 	.navitem {
 		width: 100px;
@@ -233,6 +237,7 @@
 		padding-top: 200px;
 	}
 	.maintitle {
+		visibility: visible;
 		color: #FF9292;
 		font-weight: 900;
 		font-size: 52px;
