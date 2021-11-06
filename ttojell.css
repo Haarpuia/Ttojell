@@ -1,199 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-@media all and (max-width: 320px) {
-	* {
-		font-family: montserrat;
-		margin: 0;
-		padding: 0;
-	}
-	header {
-		display: flex;
-		width: 100%;
-		height: 50px;
-		background: #FF9292;
-		justify-content: space-between;
-		align-items: center;
-	}
-	.headerwrapper {
-		display: flex;
-		width: 90%;
-		background: #FF9292;
-		float: left;
-		color: white;
-		align-items: center;
-		margin: 0 auto;
-		flex-wrap: wrap;
-	}
-	.title {
-		font-weight: 900;
-		background: #FF9292;
-		font-size: 24px;
-	}
-	.navwrapper {
-		display: flex;
-		margin-left: auto;
-		justify-content: space-between;
-		background: #FF9292;
-		width: 400px;
-	}
-	.navitem {
-		background: #FF9292;
-	}
-	.mainwrapper {
-		width: 100%;
-		background: linear-gradient(180deg, #FF9292 0%, rgba(236, 236, 236, 0) 50%);
-		display: flex;
-		justify-content: space-around;
-		padding: 0;
-		text-align: left;
-		flex-wrap: wrap;
-	}
-	.maintext {
-		padding-left: 100px;
-		padding-top: 200px;
-	}
-	.maintitle {
-		color: white;
-		font-weight: 900;
-		font-size: 52px;
-		padding-bottom: 80px;
-	}
-	.maindescription {
-		color: #FF9292;
-		font-size: 44px;
-	}
-	.mainimage {
-		width: 100%;
-		padding-top: 100px;
-	}
-	.introwrapper {
-		padding-bottom: 40px;
-	}
-	.introtitle {
-		color: #8394FF;
-		font-size: 30px;
-		padding-top: 60px;
-	}
-	.introdescription {
-		font-size: 18px;
-		color: #838383;
-	}
-	.introimage {
-		width: 40%
-	}
-	.friendswrapper {
-		width: 100%;
-		height: auto;
-		padding: 60px 0px 60px 0px;
-	}
-	.friendsboxwrapper {
-		display: flex;
-		width: 80%;
-		justify-content: space-around;
-		padding-top: 40px;
-		flex-wrap : wrap;
-	}
-	.friendstitle {
-		font-size: 30px;
-		color: #00C7A0;
-	}
-	.friendsdescription {
-		font-size: 18px;
-		color: #838383;
-	}	
-	.friendsbox {
-		width: auto;
-		background: #F8F8F8;
-		box-shadow: 4px 4px 4px rgba(115, 115, 115, 0.25);
-		border-radius: 25px;
-		align-items: center;
-		text-align: center;
-		padding: 20px;
-		margin: 10px;
-	}
-	.rosetitle {
-		color: #FF9292;
-		font-size: 24px;
-		font-weight: 700;
-	}
-	.pastatitle {
-		color: #739AF2;
-		font-size: 24px;
-		font-weight: 700;
-	}
-	.mintytitle {
-		color: #00C7A0;
-		font-size: 24px;
-		font-weight: 700;
-	}
-	.remonititle {
-		color: #FFBC57;
-		font-size: 24px;
-		font-weight: 700;
-	}
-	.frienddescription {
-		color: #898989;
-		font-size: 17px;
-		font-weight: normal;
-	}
-	.characterimage {
-		width: 100%;
-		padding-bottom: 20px;
-	}
-	.shopswrapper {
-		padding: 0px 0px 60px 0px;
-	}
-	.shopstitle {
-		font-size: 30px;
-		color: #FFBC57;
-	}
-	.shopsdescription {
-		font-size: 18px;
-		color: #838383;
-	}
-	.shopitemswrapeer {
-		display: flex;
-		width: 40%;
-		justify-content: space-around;
-		padding-top: 40px;
-		align-items: center;
-		flex-wrap : wrap;
-	}
-	.shopitem {
-		margin: 30 auto;
-		width: 150px;
-	}
-	footer {
-		display: flex;
-		width: 100%;
-		height: auto;
-		background: #739AF2;
-		color: white;
-		align-items: center;
-	}
-	.footerwrapper {
-		width: 300px;
-		line-height: 30px;
-		text-align: left;
-		padding-bottom: 15px;
-		font-size: 14px;
-		padding: 20px 0px 20px 20px;
-	}
-	.footernav {
-		width: 90%;
-		list-style: none;
-		padding-bottom: 20px;
-	}
-	.footeritem {
-		margin: 8px 0px;
-	}
-	.copyright {
-		font-weight: 600;
-		font-size: 16px;
-	}
-
-
-}
 @media all and (min-width: 320px) {
 	* {
 		font-family: montserrat;
@@ -203,63 +9,49 @@
 	header {
 		display: flex;
 		width: 100%;
-		height: 50px;
+		height: auto;
 		background: #FF9292;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
-	}
-	.headerwrapper {
-		display: flex;
-		width: 90%;
-		background: #FF9292;
-		float: left;
-		color: white;
-		align-items: center;
-		margin: 0 auto;
-		flex-wrap: wrap;
+		text-align: center;
+		
 	}
 	.title {
+		width: 100%;
+		color: white;
+		font-size: 32px;
 		font-weight: 900;
-		background: #FF9292;
-		font-size: 24px;
 	}
 	.navwrapper {
-		display: flex;
-		margin-left: auto;
+		width: 320px;
 		justify-content: space-between;
-		background: #FF9292;
-		width: 400px;
-	}
-	.navitem {
-		width: 100px;
-		background: #FF9292;
+		color: white;
+		font-size: 20px;
+		font-weight: 200;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 	.mainwrapper {
 		width: 100%;
-		background: linear-gradient(180deg, #FF9292 0%, rgba(236, 236, 236, 0) 50%);
 		display: flex;
 		justify-content: space-around;
 		padding: 0;
-		text-align: left;
+		text-align: center;
 		flex-wrap: wrap;
 	}
-	.maintext {
-		padding-left: 100px;
-		padding-top: 200px;
-	}
 	.maintitle {
-		color: white;
-		font-weight: 900;
-		font-size: 52px;
-		padding-bottom: 80px;
+		visibility: hidden;
 	}
 	.maindescription {
+		text-align: center;
 		color: #FF9292;
-		font-size: 44px;
+		font-size: 24px;
+		font-weight: 600;
+		padding-bottom: 40px;
 	}
 	.mainimage {
-		width: auto;
-		padding-top: 100px;
+		width: 280px;
+		padding-top: 40px;
 	}
 	.introwrapper {
 		padding-bottom: 40px;
@@ -267,14 +59,14 @@
 	.introtitle {
 		color: #8394FF;
 		font-size: 30px;
-		padding-top: 60px;
+		padding-top: 40px;
 	}
 	.introdescription {
 		font-size: 18px;
 		color: #838383;
 	}
 	.introimage {
-		width: 40%
+		width: 280px;
 	}
 	.friendswrapper {
 		width: 100%;
@@ -283,7 +75,7 @@
 	}
 	.friendsboxwrapper {
 		display: flex;
-		width: 80%;
+		width: 100%;
 		justify-content: space-around;
 		padding-top: 40px;
 		flex-wrap : wrap;
@@ -295,9 +87,9 @@
 	.friendsdescription {
 		font-size: 18px;
 		color: #838383;
-	}	
+	}
 	.friendsbox {
-		width: auto;
+		width: 80%;
 		background: #F8F8F8;
 		box-shadow: 4px 4px 4px rgba(115, 115, 115, 0.25);
 		border-radius: 25px;
@@ -305,6 +97,10 @@
 		text-align: center;
 		padding: 20px;
 		margin: 10px;
+	}
+	.characterimage {
+		width: 100%;
+		padding-bottom: 20px;
 	}
 	.rosetitle {
 		color: #FF9292;
@@ -331,10 +127,6 @@
 		font-size: 17px;
 		font-weight: normal;
 	}
-	.characterimage {
-		width: 100%;
-		padding-bottom: 20px;
-	}
 	.shopswrapper {
 		padding: 0px 0px 60px 0px;
 	}
@@ -355,8 +147,8 @@
 		flex-wrap : wrap;
 	}
 	.shopitem {
-		margin: 30 auto;
-		width: 150px;
+		padding: 0px 0px 40px 0px;
+		width: 90%;
 	}
 	footer {
 		display: flex;
@@ -365,13 +157,13 @@
 		background: #739AF2;
 		color: white;
 		align-items: center;
+		text-align: center;
 	}
 	.footerwrapper {
-		width: 500px;
+		width: 280px;
 		line-height: 30px;
-		text-align: left;
-		padding-bottom: 15px;
-		font-size: 14px;
+		padding-bottom: px;
+		font-size: 16px;
 		padding: 20px 0px 20px 20px;
 	}
 	.footernav {
@@ -380,15 +172,15 @@
 		padding-bottom: 20px;
 	}
 	.footeritem {
-		margin: 8px 0px;
+		margin: 15px 0px;
 	}
 	.copyright {
 		font-weight: 600;
 		font-size: 16px;
 	}
-
+	
 }
-@media all and (min-width: 760px) {
+@media all and (min-width: 768px) {
 	* {
 		font-family: montserrat;
 		margin: 0;
@@ -397,10 +189,9 @@
 	header {
 		display: flex;
 		width: 100%;
-		height: 50px;
+		height: 180px;
 		background: #FF9292;
 		justify-content: space-between;
-		align-items: center;
 	}
 	.headerwrapper {
 		display: flex;
@@ -415,7 +206,7 @@
 	.title {
 		font-weight: 900;
 		background: #FF9292;
-		font-size: 24px;
+		font-size: 48px;
 	}
 	.navwrapper {
 		display: flex;
@@ -581,11 +372,3 @@
 		font-size: 16px;
 	}
 }
-@media screen and (max-width: 760px) {
-	.title {
-		padding: 30px 0 30px 0;
-	}
-	.navwrapper {
-		width: 100%;
-	}
-}	
